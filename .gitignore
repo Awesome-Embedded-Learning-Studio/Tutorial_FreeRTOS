@@ -1,0 +1,21 @@
+# VitePress 构建产物
+node_modules/
+site/.vitepress/dist/
+site/.vitepress/cache/
+site/.vitepress/.temp/
+*.tgz
+.pnpm-store/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+
+# Python(遗留 MkDocs 工具链,若使用)
+.venv/
+__pycache__/
+
+# 工具元数据
+.claude
+
+# 操作系统
+.DS_Store
