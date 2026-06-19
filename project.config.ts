@@ -21,6 +21,7 @@ export default defineProject({
       { text: '仿真坑点', link: '/pitfalls/' },
       { text: 'RT-Thread 对比', link: '/rt-thread/' },
       { text: '规划', link: '/todo/' },
+      { text: '开发日志', link: '/notes/' },
       { text: 'GitHub', link: 'https://github.com/Awesome-Embedded-Learning-Studio/Tutorial_FreeRTOS' },
     ],
   },
@@ -31,6 +32,7 @@ export default defineProject({
       { name: 'pitfalls', srcDir: 'pitfalls', urlPrefix: '/pitfalls' },
       { name: 'rt-thread', srcDir: 'rt-thread', urlPrefix: '/rt-thread' },
       { name: 'todo', srcDir: 'todo', urlPrefix: '/todo' },
+      { name: 'notes', srcDir: 'notes', urlPrefix: '/notes' },
     ],
   },
 
