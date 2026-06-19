@@ -39,7 +39,7 @@ cmake --version     # 期望 3.15 或更新
 FreeRTOS 内核是通过 git submodule 引进来的,而且钉死在官方 tag `202411.00` 上——这意味着你 clone 之后有**两步** submodule 初始化要做,缺一不可。先看命令,再解释为什么是两步、为什么第二条那么讲究:
 
 ```bash
-git clone <repo-url> Tutorial_FreeRTOS
+git clone https://github.com/Awesome-Embedded-Learning-Studio/Tutorial_FreeRTOS.git
 cd Tutorial_FreeRTOS
 git submodule update --init                                         # ① 拉外层 FreeRTOS submodule
 git -C third_party/FreeRTOS submodule update --init FreeRTOS/Source  # ② 只拉内核,不 recursive

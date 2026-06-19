@@ -16,7 +16,7 @@ description: 在 PC 上零硬件跑通 FreeRTOS 的两条路径——POSIX(Linux
 如果你只想最快看到 blinky 滚起来、细节回头再说,下面这一坨命令从零到运行(前提:已在 x86_64 的 Linux/WSL 上,装了 GCC 11+ 和 CMake 3.15+):
 
 ```bash
-git clone <repo-url> Tutorial_FreeRTOS
+git clone https://github.com/Awesome-Embedded-Learning-Studio/Tutorial_FreeRTOS.git
 cd Tutorial_FreeRTOS
 git submodule update --init                                         # 拉外层 submodule
 git -C third_party/FreeRTOS submodule update --init FreeRTOS/Source  # 只拉内核,绝不加 --recursive
